@@ -37,6 +37,14 @@
     "slug": {
       "type": "uid",
       "targetField": "name"
+    },
+    "tag": {
+      "type": "enumeration",
+      "enum": [
+        "happy",
+        "sad",
+        "dead"
+      ]
     }
   }
 }

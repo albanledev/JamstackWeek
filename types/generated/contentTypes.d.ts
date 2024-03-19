@@ -844,6 +844,7 @@ export interface ApiPlayerPlayer extends Schema.CollectionType {
       'api::competition.competition'
     >;
     slug: Attribute.UID<'api::player.player', 'name'>;
+    tag: Attribute.Enumeration<['happy', 'sad', 'dead']>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
